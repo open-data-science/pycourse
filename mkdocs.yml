@@ -15,6 +15,7 @@ theme:
     text: Ubuntu
     code: JetBrains Mono
 
+  language: ru
   features:
     - navigation.tabs
     - navigation.tabs.sticky
