@@ -13,4 +13,5 @@ theme:
 
 nav:
   - главная: index.md
-  - авторы: authors.md
+  - авторы:
+    - авторы: authors.md
