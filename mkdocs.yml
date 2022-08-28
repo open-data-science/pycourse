@@ -58,5 +58,3 @@ nav:
   - главная: index.md
   - авторы:
     - authors.md
-  - Blog:
-    - blog/index.md
