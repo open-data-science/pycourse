@@ -15,6 +15,15 @@ theme:
     text: Ubuntu
     code: JetBrains Mono
 
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+
 markdown_extensions:
 
   # Python Markdown
