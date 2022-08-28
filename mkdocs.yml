@@ -11,6 +11,10 @@ theme:
   static_templates:
     - 404.html
 
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+
 nav:
   - главная: index.md
   - авторы:
