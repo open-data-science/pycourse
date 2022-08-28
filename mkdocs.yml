@@ -11,6 +11,10 @@ theme:
   static_templates:
     - 404.html
 
+  font:
+    text: Ubuntu
+    code: JetBrains Mono
+
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
