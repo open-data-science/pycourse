@@ -49,4 +49,4 @@ markdown_extensions:
 nav:
   - главная: index.md
   - авторы:
-    - авторы: authors.md
+    - authors.md
