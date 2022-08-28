@@ -6,21 +6,7 @@ repo_name: open-data-science/pycourse
 repo_url: https://github.com/open-data-science/pycourse
 
 theme:
-  name: null
-
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  name: material
 
 nav:
   - главная: index.md
