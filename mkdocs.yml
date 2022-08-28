@@ -1,0 +1,9 @@
+site_name: python курс
+# site_url: 
+copyright: copyright &copy; 2022 - 2022 ods.ai
+
+repo_name: open-data-science/pycourse
+repo_url: https://github.com/open-data-science/pycourse
+
+theme:
+  name: material
