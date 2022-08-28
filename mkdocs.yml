@@ -8,6 +8,9 @@ repo_url: https://github.com/open-data-science/pycourse
 theme:
   name: material
 
+  static_templates:
+    - 404.html
+
 nav:
   - главная: index.md
   - авторы: authors.md
