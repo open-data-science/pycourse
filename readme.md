@@ -1,4 +1,4 @@
-# pycourse
+# о python от ods.ai
 
 > **Note**
 >
