@@ -124,5 +124,5 @@ nav:
   - о курсе:
     - index.md
     - authors.md
-  - введение:
-    - intro/index.md
+  - основы:
+    - base/index.md
