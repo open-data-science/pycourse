@@ -15,6 +15,10 @@ theme:
     text: Ubuntu
     code: JetBrains Mono
 
+  # favicon: assets/favicon.png
+  # icon:
+  #   logo: logo
+
   language: ru
   features:
     - navigation.tabs
@@ -23,6 +27,11 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.top
+
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
 
 markdown_extensions:
 
