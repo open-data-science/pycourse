@@ -16,8 +16,7 @@ theme:
     code: JetBrains Mono
 
   favicon: assets/favicon.jpeg
-  # icon:
-  #   logo: logo
+  logo: assets/logo.jpeg
 
   language: ru
   features:
