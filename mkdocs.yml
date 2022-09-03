@@ -1,9 +1,10 @@
 site_name: о python от ods.ai
-# site_url: 
+# site_url: ods.ai/..
 copyright: copyright &copy; 2022 ods.ai
 
 repo_name: open-data-science/pycourse
 repo_url: https://github.com/open-data-science/pycourse
+edit_uri: edit/master/docs/
 
 theme:
   name: material
@@ -20,17 +21,51 @@ theme:
 
   language: ru
   features:
+    - announce.dismiss
+
+    - header.autohide
+
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.indexes
+    - navigation.instant
     - navigation.top
+    - navigation.tracking
+
+    - search.suggest
+    - search.highlight
+    - search.share
 
   palette:
     scheme: slate
     primary: black
     accent: indigo
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ru
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: date
+
+extra:
+  generator: false
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/open-data-science/pycourse
+    # - icon: fontawesome/brands/matrix
+    #   link: ..
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ods_ai
 
 markdown_extensions:
 
