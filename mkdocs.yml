@@ -126,3 +126,4 @@ nav:
     - authors.md
   - основы:
     - base/index.md
+    - Вводная лекция про Python: base/intro.md
