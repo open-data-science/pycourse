@@ -1,4 +1,4 @@
-# главная
+# о python от [ods.ai](https://ods.ai/)
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
