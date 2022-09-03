@@ -109,4 +109,5 @@ nav:
   - о курсе:
     - index.md
     - authors.md
-  # - введение:
+  - введение:
+    - intro/index.md
