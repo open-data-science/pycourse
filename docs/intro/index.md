@@ -14,6 +14,8 @@ erDiagram
   CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
+переменная $n$
+
 $$
 \operatorname{ker} f=\{g\in G:f(g)=e_{H}\}{\mbox{.}}
 $$
