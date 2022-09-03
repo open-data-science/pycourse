@@ -1,4 +1,4 @@
-# о python от ods.ai
+# python от ods.ai
 
 > **Note**
 >
