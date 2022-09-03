@@ -29,6 +29,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
     - navigation.instant
     - navigation.top
     - navigation.tracking
