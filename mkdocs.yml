@@ -15,7 +15,7 @@ theme:
     text: Ubuntu
     code: JetBrains Mono
 
-  # favicon: assets/favicon.png
+  favicon: assets/favicon.jpeg
   # icon:
   #   logo: logo
 
