@@ -124,6 +124,7 @@ nav:
   - о курсе:
     - index.md
     - authors.md
+    - лицензия: https://github.com/open-data-science/pycourse/blob/master/license
   - основы:
     - base/index.md
     - вводная лекция про python: base/intro.md
