@@ -23,6 +23,9 @@ theme:
   features:
     - announce.dismiss
 
+    - content.code.annotate
+    - content.tabs.link
+
     - header.autohide
 
     - navigation.tabs
@@ -54,6 +57,8 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
       type: date
+  - glightbox
+
 
 extra:
   generator: false
@@ -99,7 +104,11 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.snippets
   - pymdownx.smartsymbols
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
