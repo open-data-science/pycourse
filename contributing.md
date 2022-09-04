@@ -1,10 +1,10 @@
 # contributing
 
-# окружение/среда
+## окружение/среда
 
 курс разрабатывается на движке [mkdocs](https://github.com/squidfunk/mkdocs-material)
 
-## собрать книгу
+### собрать книгу
 
 и сразу наблюдать конечный результат достаточно запустить
 
@@ -18,16 +18,16 @@ mkdocs serve --dirtyreload
 pip install -r requirements.txt
 ```
 
-## стилистика
+### стилистика
 
 на странице движка -- [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) -- имеются примеры как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
 
-# issue
+## issue
 
 - если хотите добавить что-то новое, следует начать с создания issue и описания
 - если видите открытый issue и готовы им заняться, присвойте на себя и отпишите если потребуется
 
-# pull request
+## pull request
 
 - создайте fork и клонируйте репозиторий
 - создайте новую ветку, к примеру, `git checkout -b issue-id-short-name`
