@@ -1,19 +1,42 @@
 # contributing
 
-коза -- https://squidfunk.github.io/mkdocs-material/getting-started/
+# окружение/среда
 
-что и как позже
+курс разрабатывается на движке [mkdocs](https://github.com/squidfunk/mkdocs-material)
 
-## Commands
+## собрать книгу
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+и сразу наблюдать конечный результат достаточно запустить
 
-## Project layout
+```
+mkdocs serve --dirtyreload
+```
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+но перед этим выполнить (желательно в отдельном окружении)
+
+```
+pip install -r requirements.txt
+```
+
+## стилистика
+
+на странице движка -- [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) -- имеются примеры как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
+
+# issue
+
+- если хотите добавить что-то новое, следует начать с создания issue и описания
+- если видите открытый issue и готовы им заняться, присвойте на себя и отпишите если потребуется
+
+# pull request
+
+- создайте fork и клонируйте репозиторий
+- создайте новую ветку, к примеру, `git checkout -b issue-id-short-name`
+- изменяйте/добавляйте что нужно
+- push и pull request
+- ожидайте комментариев от команды курса
+
+если состоите в какой-нибудь из команд курса, то начинайте со 2ого шага
+
+## авторство
+
+если была создана лекция и/или любое иное важное улучшение, то смело добавляйте себя в неё и в общий [список авторов курса](./docs/authors.md)
