@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### стилистика
 
-на странице движка -- [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) -- имеются примеры как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
+на странице движка -- [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) -- имеются примеры (`sponsors only` не наш случай) как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
 
 меж тем
 
