@@ -12,10 +12,10 @@
   <a href="https://github.com/open-data-science/pycourse/actions/workflows/cd-prod.yml">
     <img alt="badge_cd_prod" src="https://github.com/open-data-science/pycourse/actions/workflows/cd-prod.yml/badge.svg">
   </a>
-  <a href="https://github.com/quantum-ods/open-data-science/pycourse/workflows/dependency-review.yml">
+  <a href="https://github.com/open-data-science/pycourse/workflows/dependency-review.yml">
     <img alt="badge_dependency_review" src="https://github.com/open-data-science/pycourse/actions/workflows/dependency-review.yml/badge.svg">
   </a>
-  <a href="https://github.com/quantum-ods/qmlcourse/actions/workflows/codeql.yml">
-    <img alt="badge_codeql" src="https://github.com/quantum-ods/qmlcourse/actions/workflows/codeql.yml/badge.svg">
+  <a href="https://github.com/open-data-science/pycourse/actions/workflows/codeql.yml">
+    <img alt="badge_codeql" src="https://github.com/open-data-science/pycourse/actions/workflows/codeql.yml/badge.svg">
   </a>  
 </p>
