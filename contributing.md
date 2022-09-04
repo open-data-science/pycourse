@@ -18,9 +18,19 @@ mkdocs serve --dirtyreload
 pip install -r requirements.txt
 ```
 
+### добавить лекцию
+
+все лекции лежат в `./docs/` в соответствующих директориях
+всё содержание книги находится в `./mkdocs.yml` по ключу `nav:`
+
 ### стилистика
 
 на странице движка -- [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) -- имеются примеры как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
+
+меж тем
+
+- примера кода всегда должны иметь нумерацию строк
+- ..
 
 ## issue
 
