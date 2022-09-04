@@ -1,10 +1,13 @@
-<img src="./docs/assets/logo.png" align="left" width="80" height="80"></img>
-
+<img src="./docs/assets/logo.png" align="left" width="130" height="130"></img>
 ```
  __      ___       __          __  ___    __   __   __  
 |__) \_/  |  |__| /  \ |\ |   /  \  |    /  \ |  \ (_      /\  |
 |     |   |  |  | \__/ | \|   \__/  |    \__/ |__/ __) .  /--\ |
 ```
+
+</br>
+</br>
+
 
 > **Note**
 >
