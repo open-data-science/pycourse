@@ -53,10 +53,10 @@ plugins:
         - ru
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
-      # fallback_to_build_date: true
-      type: date
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     fallback_to_build_date: true
+  #     type: date
   - glightbox
 
 
@@ -125,6 +125,6 @@ nav:
     - index.md
     - authors.md
     - лицензия: https://github.com/open-data-science/pycourse/blob/master/license
-  - основы:
+  - основы python:
     - base/index.md
     - вводная лекция про python: base/intro.md
