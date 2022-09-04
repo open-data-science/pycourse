@@ -16,8 +16,8 @@ theme:
     text: Ubuntu
     code: JetBrains Mono
 
-  favicon: assets/logo_test_1.png
-  logo: assets/logo_test_1.png
+  favicon: assets/logo_anscii.png
+  logo: assets/logo_anscii.png
 
   language: ru
   features:
