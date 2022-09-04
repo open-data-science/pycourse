@@ -16,8 +16,8 @@ theme:
     text: Ubuntu
     code: JetBrains Mono
 
-  favicon: assets/logo_anscii_test.png
-  logo: assets/logo_anscii_test.png
+  favicon: assets/logo_anscii_invert.png
+  logo: assets/logo_anscii_invert.png
 
   language: ru
   features:
@@ -121,7 +121,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - о курсе:
+  - главная:
     - index.md
     - authors.md
     - лицензия: https://github.com/open-data-science/pycourse/blob/master/license
