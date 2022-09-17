@@ -1,17 +1,19 @@
-# авторы курса
+# Авторы курса
 
-## создатели
+## Создатели
 
 - [vvssttkk](https://github.com/vvssttkk)
 - [stalkermustang](https://github.com/stalkermustang)
 
-## авторы
+## Авторы
 
 - [alexmorphine](https://github.com/alexmorphine)
 - [stalkermustang](https://github.com/stalkermustang)
-- ..
+- [Овсянникова Александра](https://github.com/alexmorphine)
+- [Чернов Илья](https://github.com/ch3rn0v/)
+- ...
 
-## техническая поддержка
+## Техническая поддержка
 
 - [vvssttkk](https://github.com/vvssttkk)
-- ..
+- ...
