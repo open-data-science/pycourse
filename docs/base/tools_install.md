@@ -187,7 +187,7 @@ jupyter notebook
 
 Для завершения проверки скопируйте код ниже в тетрадку в браузере, а затем нажмите ++ctrl+enter++ (++command+return++ для macOS) (это заставит код выполниться, подробнее дальше в курсе). Если увидите график - то все в полном порядке!
 
-``` py linenums="1"
+```python linenums="1"
 import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
