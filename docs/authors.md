@@ -1,14 +1,15 @@
-# авторы курса
+# авторы
 
 ## создатели
 
 - [vvssttkk](https://github.com/vvssttkk)
-- [stalkermustang](https://github.com/stalkermustang)
+- [Котенков Игорь](https://github.com/stalkermustang)
 
 ## авторы
 
-- [alexmorphine](https://github.com/alexmorphine)
-- [stalkermustang](https://github.com/stalkermustang)
+- [Котенков Игорь](https://github.com/stalkermustang)
+- [Овсянникова Александра](https://github.com/alexmorphine)
+- [vvssttkk](https://github.com/vvssttkk)
 - ..
 
 ## техническая поддержка
