@@ -15,4 +15,4 @@
 ## техническая поддержка
 
 - [vvssttkk](https://github.com/vvssttkk)
-- ...
+- ..
