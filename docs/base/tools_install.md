@@ -73,12 +73,12 @@ pip install virtualenv
 virtualenv -p python3.10 env_py310
 ```
 
-- `-p python3.10` – с помощью флага/ключа `-p` указываем версию Python окружения (3.10)
+- `-p python3.10` – с помощью флага `-p` указываем версию Python окружения (3.10)
 - `env_py310` – имя окружения
 
-!!! info "Другие флаги/ключи"
+!!! info "Другие флаги"
 
-    Для просмотра доступных флагов/ключей нужно к команде добавить `--help`; для `virtualenv` это
+    Для просмотра доступных флагов нужно к команде добавить `--help`; для `virtualenv` это
 
     ```bash
     virtualenv --help
@@ -125,7 +125,7 @@ virtualenv -p python3.10 env_py310
 
 !!! info "`--system-site-packages`"
 
-    При создании виртуального окружения с ключем
+    При создании виртуального окружения с флагом
 
     ```bash
     virtualenv --system-site-packages env_py310
@@ -187,7 +187,7 @@ jupyter notebook
 
 Для завершения проверки скопируйте код ниже в тетрадку в браузере, а затем нажмите ++ctrl+enter++ (++command+return++ для macOS) (это заставит код выполниться, подробнее дальше в курсе). Если увидите график - то все в полном порядке!
 
-``` py linenums="1"
+```python linenums="1"
 import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
@@ -228,7 +228,7 @@ pip install jupyterlab
 jupyter-lab
 ```
 
-Горячо рекомендуем сразу использовать его, ну или сразу привыкать работать с IDE JetBrains PyCharm, VSCode и т.д.
+Горячо рекомендуем использовать его, ну или привыкать работать с IDE JetBrains PyCharm, VSCode и т.д.
 
 ### colab
 
