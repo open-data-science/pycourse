@@ -127,7 +127,6 @@ nav:
     - лицензия: https://github.com/open-data-science/pycourse/blob/master/license
   - основы python:
     - base/index.md
-    - вводная лекция про python: base/intro.md
     - установка инструментов: base/tools_install.md
     - ориентация в jupyter: base/jupyter.md
     - переменные, типы и вывод: base/variable_types_output.md
