@@ -10,7 +10,7 @@
 
 - [перейти во вкладку `actions` и выбрать `cd-stage` процесс](https://github.com/open-data-science/pycourse/actions/workflows/cd-stage.yml)
 - справа в таблице в выпадающем меню `run workflow` выбрать нужную ветку и нажать зелёную кнопку запуска
-- после пару минут по адресу [pycourse-stage.up.railway.app](https://pycourse-stage.up.railway.app/) можно лицезреть собранную книгу
+- после пары минут по адресу [pycourse-stage.up.railway.app](https://pycourse-stage.up.railway.app/) можно лицезреть собранную книгу
 
 #### локально
 
