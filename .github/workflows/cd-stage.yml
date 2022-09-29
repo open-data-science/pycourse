@@ -1,0 +1,47 @@
+name: cd-stage
+
+on:
+  workflow_dispatch:
+
+env:
+  PUBLISH_BRANCH: pycourse-page-stage
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    environment:
+      name: pycourse-page-stage
+      url: https://pycourse-stage.up.railway.app/
+
+    steps:
+
+      - name: checkout code
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: caching
+        uses: actions/cache@v3
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: deploy mkdocs
+        run: mkdocs build -v
+
+      - name: update publish dir to build branch
+        uses: peaceiris/actions-gh-pages@v3.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ env.PUBLISH_BRANCH }}
+          publish_dir: ./site

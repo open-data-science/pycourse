@@ -4,19 +4,30 @@
 
 курс разрабатывается на движке [mkdocs](https://github.com/squidfunk/mkdocs-material)
 
-### собрать книгу
+### собрать промежуточную версию книги
 
-и сразу наблюдать конечный результат достаточно запустить
+#### через gh action
 
-```
-mkdocs serve --dirtyreload
-```
+- [перейти во вкладку `actions` и выбрать `cd-stage` процесс](https://github.com/open-data-science/pycourse/actions/workflows/cd-stage.yml)
+- справа в таблице в выпадающем меню `run workflow` выбрать нужную ветку и нажать зелёную кнопку запуска
+- после пару минут по адресу [pycourse-stage.up.railway.app](https://pycourse-stage.up.railway.app/) можно лицезреть собранную книгу
 
-но перед этим выполнить (желательно в отдельном окружении)
+#### локально
 
-```
-pip install -r requirements.txt
-```
+- клонировать нужную ветку (или fork)
+- запустить
+
+    ```
+    mkdocs serve –dirtyreload
+    ```
+
+    но перед этим выполнить (желательно в отдельном окружении)
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+- перейти по предложенной внутренней ссылке
 
 ### добавить лекцию
 
@@ -24,15 +35,15 @@ pip install -r requirements.txt
 
 всё содержание книги находится в `./mkdocs.yml` по ключу `nav`
 
-картинки и иже находятся в `_static/` в нужном разделе/вкладке (к примеру, в `./docs/base/` -- «основы python» -- не более)
+картинки и иже находятся в `_static/` в нужном разделе/вкладке (к примеру, в `./docs/base/` – «основы python» – не более)
 
 ### стилистика
 
-на странице движка -- [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) -- имеются примеры (`sponsors only` не наш случай) как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
+на странице движка – [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/) – имеются примеры (`sponsors only` не наш случай) как можно во всю его использовать, не ограничивайте себя, главное чтобы было понятно даже школьнику
 
 меж тем
 
-- вместо `--` использовать `–` (`option` + `-` для macos)
+- вместо `–` использовать `–` (`option` + `-` для macos)
 - рисунки в `.png` формате
 - примеры кода всегда содержат нумерацию строк
 - `""` в коде
