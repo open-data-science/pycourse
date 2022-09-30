@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 4
     environment:
       name: pycourse-page-stage
-      url: https://pycourse-stage.up.railway.app/
+      url: https://pycourse-page-stage.netlify.app/
 
     steps:
 
