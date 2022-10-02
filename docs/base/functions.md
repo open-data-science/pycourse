@@ -181,7 +181,7 @@ print(from_add_two)
 def change_num(num):
     if num % 2 == 0:
         return num / 2
-    
+
     return num * 2
 
 
@@ -286,7 +286,7 @@ name
 
 ### Замыкания
 
-[Замыкание](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BC%D1%8B%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)) ([Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming))) — это функция, объявленная в теле внешенй функции, и использующая значения из области видимости внешней функции.
+[Замыкание](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BC%D1%8B%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)) ([Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming))) — это функция, объявленная в теле внешней функции, и использующая значения из области видимости внешней функции.
 
 Замыкания удобно использовать для динамического создания функций.
 
