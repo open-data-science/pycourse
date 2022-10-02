@@ -52,7 +52,7 @@
 - запустить
 
     ```
-    mkdocs serve –dirtyreload
+    mkdocs serve --dirtyreload
     ```
 
 - перейти по предложенной внутренней ссылке, дабы открыть книгу
