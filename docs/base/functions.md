@@ -308,7 +308,7 @@ print(add_three(2))
 
 ### Каррирование
 
-[Каррирование](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) ([Currying](https://en.wikipedia.org/wiki/Currying)) — это превращение функции от нескольких аргументов в последовательность функций от одного аргумента. 
+[Каррирование](https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) ([Currying](https://en.wikipedia.org/wiki/Currying)) — это превращение функции от нескольких аргументов в последовательность функций от одного аргумента.
 
 В Python реализован менее строгий аналог каррирования. С помощью функции [`partial`](https://docs.python.org/3/library/functools.html#functools.partial) можно получить функцию от меньшего числа аргументов, но не обязательно одного. Рассмотрим пример.
 
