@@ -135,5 +135,5 @@ nav:
     - списки и циклы: base/list_loop.md
     - словари: base/dictionary.md
     - функции: base/functions.md
-    - объекты и классы: base/object_class_method.md
+    - объекты, классы и методы: base/object_class_method.md
     - финальная лекция: base/final.md
