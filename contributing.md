@@ -34,7 +34,7 @@
 
 ### собрать промежуточную версию книги
 
-#### через gh actions
+#### gh actions (для членов команды курса)
 
 - [перейти во вкладку `actions` и выбрать `cd-stage` процесс](https://github.com/open-data-science/pycourse/actions/workflows/cd-stage.yml)
 - справа в таблице в выпадающем меню `run workflow` выбрать нужную ветку и нажать зелёную кнопку запуска
