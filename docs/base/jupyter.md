@@ -236,6 +236,6 @@ ModuleNotFoundError: No module named 'mat'
 
 <p align="center"><iframe width="560" height="315" style='' src="https://www.youtube.com/embed/7jiPeIFXb6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-- [Основной синтаксис написания и форматирования](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Основной синтаксис написания и форматирования Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Список LaTeX символов](https://latex-programming.fandom.com/wiki/List_of_LaTeX_symbols)
