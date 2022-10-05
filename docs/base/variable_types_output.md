@@ -68,7 +68,6 @@ third_variable = float(second_variable)
 # в print() можно передавать несколько переменных
 print(first_variable, second_variable, third_variable)
 ```
-
 ```bash
 <class 'int'>
 <class 'float'>
@@ -104,7 +103,6 @@ print(b / b)
 print(c / c)
 print(12 / 4)
 ```
-
 ```bash
 <class 'float'>
 <class 'int'>
@@ -129,7 +127,6 @@ print(a + b, type(a + b))
 print(a * b, type(a * b))
 print(a ** b, type(a ** b))
 ```
-
 ```bash
 5 <class 'int'>
 6 <class 'int'>
@@ -150,7 +147,6 @@ print(a +b, type(a+ b))
 print(a     * b, type(a *b))
 print(a**b, type(a        ** b))
 ```
-
 ```bash
 5 <class 'int'>
 6 <class 'int'>
@@ -176,7 +172,6 @@ in culpa qui officia deserunt mollit anim id est laborum.
 
 print(another_text_variable)
 ```
-
 ```bash
 Вася, впиши сюда что-нибудь перед публикацией курса!
 ```
@@ -190,7 +185,6 @@ another_error_string = "И тут он мне говорит: "у тебя не�
 print(error_string)
 print(another_error_string)
 ```
-
 ```bash
   File "<ipython-input-25-7bba44e87ae0>", line 1
     error_string = 'Chillin' kid'
@@ -207,7 +201,6 @@ another_error_string = 'И тут он мне говорит: "у тебя не�
 print(error_string)
 print(another_error_string)
 ```
-
 ```bash
 Chillin' kid
 И тут он мне говорит: "у тебя нет ног!"
@@ -233,7 +226,6 @@ print(first_string, result, second_string)
 result_string = first_string + str(result) + second_string
 print(result_string)
 ```
-
 ```bash
 Результат вычислений:  24 . Это не так много!
 Результат вычислений: 24. Это не так много!
@@ -264,7 +256,6 @@ wrong_result_string = 'Результат вычислений: {result}. Это
 print(result_string)
 print(wrong_result_string)
 ```
-
 ```bash
 Результат вычислений: 24. Это не так много!
 Результат вычислений: {result}. Это не так много!
@@ -289,7 +280,6 @@ out_string = (f'В точке с координатами X={x}, Y={y}, Z={z} з
 
 print(out_string)
 ```
-
 ```bash
 В точке с координатами X=12.1, Y=0, Z=13 значение функции равно 0.0. Состояние системы указано на момент  времени t=30.113412
 ```
