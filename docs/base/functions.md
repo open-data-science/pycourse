@@ -533,7 +533,6 @@ def fn(ls=[1]):
 print(fn())
 print(fn())
 ```
-
 ```
 [1, 2]
 [1, 2, 2]
@@ -554,7 +553,6 @@ print(fn_with_id())
 print(fn_with_id([3]))
 print(fn_with_id())
 ```
-
 ```
 123928376604123
 [1, 2]
@@ -583,7 +581,6 @@ print(fixed_fn())
 print(fixed_fn([1]))
 print(fixed_fn())
 ```
-
 ```
 [2]
 [2]
@@ -604,7 +601,6 @@ print(fn_with_set())
 print(fn_with_set({3}))
 print(fn_with_set())
 ```
-
 ```
 140214028693696
 {2}
