@@ -170,11 +170,11 @@ len(marks) = 2
     ```python linenums="1"
     # ещё один способ создания словаря из последовательности пар
     holidays = dict([("January", [1, 2, 3, 4]), ("Feburary", [23]), ("March", [8])])
-    
+
     # pop() возвращает значение, соответствующее ключу, значит его можно присвоить
     # переменной
     january_days = holidays.pop("January")
-    
+
     # напечатается соответствующий массив
     print(january_days)
     ```
@@ -200,14 +200,14 @@ len(marks) = 2
     # вернёмся к предыдущему примеру
     # словарь становится пустой
     holidays.clear()
-    
+
     # значит, длина равна 0
     print(len(holidays))
     ```
     ```bash
     0
     ```
-  
+
 Обратите внимание на то, как работают методы `pop()`, `popitem()` и `clear()`: как только вызываются, словарь меняет свой состав (_изменения происходят in place_, то изменить по месту без копирования).
 
 ### Обновление и добавление ключей
@@ -468,17 +468,17 @@ print(f"Стало: {hex(id(ratings))} - ничего не поменялось!
     ```python linenums="1"
     # при помощи "литерала" - фигурных скобок {}
     flowers = {"roses": "red", "violets": "blue"}
-    
+
     # при помощи вызова
     #   dict() и последовательности с парами значений
     anime = dict([
                   ("Ведьмак", "Кошмар волка"),
                   ("Призрак в доспехах", ["Призрак в доспехах", "Синдром одиночки", "Невинность"])
                  ])
-    
+
     #   dict() и "ключ=значение"
     literature = dict(poem_flowers=flowers)
-    
+
     print(f"{flowers = }\n{anime = }\n{literature = }")
     ```
     ```bash
@@ -492,7 +492,7 @@ print(f"Стало: {hex(id(ratings))} - ничего не поменялось!
     ```python linenums="1"
     # доступ к элементу, если ключа нет - ошибка
     print(f'{flowers["violets"] = }')
-    
+
     # при помощи get()
     print(f'{flowers.get("magnolias") = }')
     ```
@@ -503,19 +503,19 @@ print(f"Стало: {hex(id(ratings))} - ничего не поменялось!
 
     ```python linenums="1"
     days = ["Пн", "Вт", "Ср", "Чт", "Пт"]
-    
+
     # создадим пустой словарь
     numbered_days = {}
-    
+
     # будем добавлять в него элементы в цикле
     for num in range(len(days)):
         numbered_days[num] = days[num]
-    
+
     # получим отдельно ключи и значения
     # пары из tuple можно сразу получить при помощи метода items()
     keys = numbered_days.keys()
     values = numbered_days.values()
-    
+
     print(f"Ключи: {keys}\nЗначения: {values}")
     ```
     ```bash
