@@ -114,7 +114,7 @@ def print_theme():
 # Выше была определена print_theme, ее и вызовем.
 print_theme()
 ```
-```
+```bash
 Лекция про функции!
 Тело кончилось
 ```
@@ -152,7 +152,7 @@ def add_two(x):
 from_print_theme = print_theme()
 print(from_print_theme is None)
 ```
-```
+```bash
 Лекция про функции!
 Тело кончилось
 True
@@ -167,7 +167,7 @@ True
 from_add_two = add_two(2)
 print(from_add_two)
 ```
-```
+```bash
 4
 ```
 
@@ -187,7 +187,7 @@ def change_num(num):
 print(change_num(4))
 print(change_num(5))
 ```
-```
+```bash
 2
 10
 ```
@@ -217,7 +217,7 @@ try:
 except NameError as ne:
     print(ne)
 ```
-```
+```bash
 name 'result' is not defined
 ```
 
@@ -273,7 +273,7 @@ def foo():
 
 foo()
 ```
-```
+```bash
 name
 10
 20
@@ -299,7 +299,7 @@ def make_adder(arg1):
 add_three = make_adder(3)
 print(add_three(2))
 ```
-```
+```bash
 5
 ```
 
@@ -318,7 +318,7 @@ def adder(arg1, arg2):
 add_three = partial(adder, 3)
 print(add_three(2))
 ```
-```
+```bash
 5
 ```
 
@@ -431,7 +431,7 @@ print(two_var_sum(-1, 2), two_var_sum(2, -1))
 # Указывается название параметра и значение после =
 print(two_var_sum(var2=2, var1=-1))
 ```
-```
+```bash
 3 1
 3
 ```
@@ -449,7 +449,7 @@ def many_arg_sum(*args):
 
 many_arg_sum(1, 2, 3, 4, 5, 6)
 ```
-```
+```bash
 21
 ```
 
@@ -484,7 +484,7 @@ hello(phrase="Здарова", name="Игорь")
 # Если не указать значение именованного параметра, используется что по умолчанию
 hello("Вася")
 ```
-```
+```bash
 Приветствую, Саша
 Здорова, Игорь
 Привет, Вася
@@ -513,7 +513,7 @@ def congrats(today, everyone=False, **names_dates_mapper):
 
 congrats("2021-09-17", Paul="2001-03-08", Lena="1997-01-31", Mark="1997-09-17")
 ```
-```
+```bash
 Happy Birthday, Mark
 ```
 
@@ -533,7 +533,7 @@ def fn(ls=[1]):
 print(fn())
 print(fn())
 ```
-```
+```bash
 [1, 2]
 [1, 2, 2]
 ```
@@ -553,7 +553,7 @@ print(fn_with_id())
 print(fn_with_id([3]))
 print(fn_with_id())
 ```
-```
+```bash
 123928376604123
 [1, 2]
 123928376604123
@@ -581,7 +581,7 @@ print(fixed_fn())
 print(fixed_fn([1]))
 print(fixed_fn())
 ```
-```
+```bash
 [2]
 [2]
 [1, 2]
@@ -601,7 +601,7 @@ print(fn_with_set())
 print(fn_with_set({3}))
 print(fn_with_set())
 ```
-```
+```bash
 140214028693696
 {2}
 140214028693696
@@ -629,7 +629,7 @@ lambda x: abs(x)
 
 lambda num, div=2: "нет" if num % div else "да"
 ```
-```
+```bash
 <function __main__.<lambda>(num, div=2)>
 ```
 
@@ -647,7 +647,7 @@ print(check_div(3), check_div(5, 5))
 # Возможен вызов и без сохранения в переменную
 print((lambda x: abs(x))(-120))
 ```
-```
+```bash
 нет да
 120
 ```
@@ -659,7 +659,7 @@ print((lambda x: abs(x))(-120))
 ```python linenums="1"
 list(map(lambda x: x**2, [1, 2, 3]))
 ```
-```
+```bash
 [1, 4, 9]
 ```
 
@@ -671,7 +671,7 @@ list(map(lambda x: x**2, [1, 2, 3]))
 perform_computation = lambda: 2 ** 10_000_000 / 2 ** 10_000_000
 perform_computation()
 ```
-```
+```bash
 1.0
 ```
 
@@ -720,7 +720,7 @@ many_arg_sum = time_decorator(many_arg_sum)
 # Поведение функции поменялось, а код вызова — нет
 summed = many_arg_sum(10, 0, -120, 333)
 ```
-```
+```bash
 Прошло 1.9073486328125e-06 секунд
 ```
 
@@ -736,7 +736,7 @@ def primitive_exponentiation(x, power=5):
 
 powered = primitive_exponentiation(10)
 ```
-```
+```bash
 Прошло 4.0531158447265625e-06 секунд
 ```
 
