@@ -1,9 +1,8 @@
 # авторы
 
-## создатели
+## создатель
 
 - [vvssttkk](https://github.com/vvssttkk)
-- [Котенков Игорь](https://github.com/stalkermustang)
 
 ## авторы
 
