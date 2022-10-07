@@ -15,7 +15,7 @@
 - методы
 
 <figure markdown>
-  ![](./_static/object_class_method/class_and_obj1.png){ width="250" align=left }
+  ![](./_static/class_and_obj1.png){ width="250" align=left }
   <figcaption>
   Так можно проиллюстрировать соотношение «класс - объекты». Сверху указаны общие прототипы (прямоугольник, звезда, треугольник), снизу - уникальные экземпляры, со своим цветом и деталями
   </figcaption>
@@ -38,7 +38,7 @@ example_list.append("чем-то")
 attr_value = example_list.__doc__
 print(f"Значение атрибута: {attr_value}")
 ```
-```
+```bash
 Метод append имеет тип <built-in method append of list object at 0x7f1a38036e40>
 Значение атрибута: Built-in mutable sequence.
 
@@ -58,14 +58,14 @@ a + b
 # проверим, что содержимое объектов не изменилось
 print(f"{a = }, {b = }")
 ```
-```
+```bash
 a = 3, b = 4
 ```
 
 Конкретно в данном случае логика работы обусловлена свойствами `mutable`/`immutable` объектов, о чём также упоминалось в одной из предшествующих лекций. `int` неизменяем, и потому при вызове метода сложения возвращает новый объект - ведь самого себя изменить не получится. `list` же может меняться, и `append` меняет содержимое `inplace`.
 
 <figure markdown>
-  ![](./_static/object_class_method/class_and_obj_house.png){ width="450" }
+  ![](./_static/class_and_obj_house.png){ width="450" }
   <figcaption>
   Другой житейский пример - по одному чертежу (классу) можно построить разные (но похожие!) дома, в которых разные семьи, убранство, разные обои
   </figcaption>
@@ -114,7 +114,7 @@ print(f"После простого сложения: {a.value = }, {b.value = }
 c = a.add(b)
 print(f"После записи в переменную результата: {c.value = }")
 ```
-```
+```bash
 example_list.content = ['что-то', 'с']
 example_list.content = ['что-то', 'с', 'чем-то']
 type(example_list) = <class '__main__.List'>
@@ -140,7 +140,7 @@ type(example_list) = <class '__main__.List'>
     result = Int.add(Int(3), Int(4))
     print(f"{result.value}")
     ```
-    ```
+    ```bash
     7
     ```
 
@@ -153,7 +153,7 @@ type(example_list) = <class '__main__.List'>
 В заключение еще одна картинка, иллюстрирующая суть класса, экземпляра, атрибутов и методов:
 
 <figure markdown>
-  ![](./_static/object_class_method/class_and_obj_pika.png){ width="450" }
+  ![](./_static/class_and_obj_pika.png){ width="450" }
   <figcaption>
   Что это за покемон?
   </figcaption>
@@ -224,7 +224,7 @@ for cycle_num in range(1, 4):
     total_object_energy = sum([obj.energy for obj in objects])
     print(f"Суммарная энергия объектов: {total_object_energy}")
 ```
-```
+```bash
 Состояние системы на итерации 1: [9.64, 28.92, 40.00600000000001, 0.0].	Всего объектов: 5	Суммарная энергия объектов: 10
 Состояние системы на итерации 2: [-340.36, -321.08, -309.994, -350.0].	Всего объектов: 4	Суммарная энергия объектов: -72.56
 Состояние системы на итерации 3: [-340.36, -321.08, -309.994, -350.0].	Всего объектов: 3	Суммарная энергия объектов: -114.84
