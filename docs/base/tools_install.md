@@ -207,7 +207,6 @@ ax.bar(θ, radii, width=width, bottom=0.0, color=colors, alpha=0.5)
 
 plt.show()
 ```
-
 ![](./_static/jupyter_test_code_run.png)
 
 Не переживайте, этот код не нужно разбирать сейчас – просто убеждаемся, что все работает согласно задумке. Если что-то не так, пересмотрите все ли сделали согласно инструкции; если да и не воспроизводится, то задавайте вопрос в [канале курса](https://opendatascience.slack.com/archives/CEH3VJCRJ)

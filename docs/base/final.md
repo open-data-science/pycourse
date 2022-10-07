@@ -68,7 +68,7 @@ print(f"{np_example_array.shape = }")
 abs_res = np.abs(-2)
 print(f"{abs_res = }")
 ```
-```
+```bash
 np_example_array.shape = (3,)
 abs_res = 2
 ```
@@ -81,7 +81,7 @@ from numpy import zeros
 zeros_matrix = zeros(shape=(1, 3))
 print(f"{zeros_matrix = }")
 ```
-```
+```bash
 zeros_matrix = array([[0., 0., 0.]])
 ```
 
