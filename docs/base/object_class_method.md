@@ -15,7 +15,7 @@
 - методы
 
 <figure markdown>
-  ![](./_static/object_class_method/class_and_obj1.png){ width="250" align=left }
+  ![](./_static/class_and_obj1.png){ width="250" align=left }
   <figcaption>
   Так можно проиллюстрировать соотношение «класс - объекты». Сверху указаны общие прототипы (прямоугольник, звезда, треугольник), снизу - уникальные экземпляры, со своим цветом и деталями
   </figcaption>
@@ -65,7 +65,7 @@ a = 3, b = 4
 Конкретно в данном случае логика работы обусловлена свойствами `mutable`/`immutable` объектов, о чём также упоминалось в одной из предшествующих лекций. `int` неизменяем, и потому при вызове метода сложения возвращает новый объект - ведь самого себя изменить не получится. `list` же может меняться, и `append` меняет содержимое `inplace`.
 
 <figure markdown>
-  ![](./_static/object_class_method/class_and_obj_house.png){ width="450" }
+  ![](./_static/class_and_obj_house.png){ width="450" }
   <figcaption>
   Другой житейский пример - по одному чертежу (классу) можно построить разные (но похожие!) дома, в которых разные семьи, убранство, разные обои
   </figcaption>
@@ -153,7 +153,7 @@ type(example_list) = <class '__main__.List'>
 В заключение еще одна картинка, иллюстрирующая суть класса, экземпляра, атрибутов и методов:
 
 <figure markdown>
-  ![](./_static/object_class_method/class_and_obj_pika.png){ width="450" }
+  ![](./_static/class_and_obj_pika.png){ width="450" }
   <figcaption>
   Что это за покемон?
   </figcaption>
