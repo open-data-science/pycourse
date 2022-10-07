@@ -38,7 +38,7 @@ example_list.append("чем-то")
 attr_value = example_list.__doc__
 print(f"Значение атрибута: {attr_value}")
 ```
-```
+```bash
 Метод append имеет тип <built-in method append of list object at 0x7f1a38036e40>
 Значение атрибута: Built-in mutable sequence.
 
@@ -58,7 +58,7 @@ a + b
 # проверим, что содержимое объектов не изменилось
 print(f"{a = }, {b = }")
 ```
-```
+```bash
 a = 3, b = 4
 ```
 
@@ -114,7 +114,7 @@ print(f"После простого сложения: {a.value = }, {b.value = }
 c = a.add(b)
 print(f"После записи в переменную результата: {c.value = }")
 ```
-```
+```bash
 example_list.content = ['что-то', 'с']
 example_list.content = ['что-то', 'с', 'чем-то']
 type(example_list) = <class '__main__.List'>
@@ -140,7 +140,7 @@ type(example_list) = <class '__main__.List'>
     result = Int.add(Int(3), Int(4))
     print(f"{result.value}")
     ```
-    ```
+    ```bash
     7
     ```
 
@@ -224,7 +224,7 @@ for cycle_num in range(1, 4):
     total_object_energy = sum([obj.energy for obj in objects])
     print(f"Суммарная энергия объектов: {total_object_energy}")
 ```
-```
+```bash
 Состояние системы на итерации 1: [9.64, 28.92, 40.00600000000001, 0.0].	Всего объектов: 5	Суммарная энергия объектов: 10
 Состояние системы на итерации 2: [-340.36, -321.08, -309.994, -350.0].	Всего объектов: 4	Суммарная энергия объектов: -72.56
 Состояние системы на итерации 3: [-340.36, -321.08, -309.994, -350.0].	Всего объектов: 3	Суммарная энергия объектов: -114.84
