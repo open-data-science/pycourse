@@ -37,7 +37,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: deploy mkdocs
-        run: mkdocs build -v
+        run: mkdocs gh-deploy --force -v
 
       - name: update publish dir to build branch
         uses: peaceiris/actions-gh-pages@v3.8.0
