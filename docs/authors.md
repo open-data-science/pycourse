@@ -11,6 +11,7 @@
 - [Овсянникова Александра](https://github.com/alexmorphine)
 - [Чернов Илья](https://github.com/ch3rn0v/)
 - [vvssttkk](https://github.com/vvssttkk)
+- [Kosarevsky Dmitry](https://github.com/dKosarevsky)
 - ..
 
 ## техническая поддержка
