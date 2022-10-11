@@ -15,21 +15,21 @@
 
 Пример некоторых задач, которые можно решить с помощью Python и библиотек для таких решений:
 
-* создавать web-приложения ([Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/));
-* разрабатывать игры ([Pygame](https://www.pygame.org/));
-* разрабатывать мобильные приложения ([Kivy](https://kivy.org/));
-* работать с текстовыми файлами, изображениями, аудио и видео файлами ([PyMedia](http://pymedia.org/));
-* реализовывать графический интерфейс пользователя ([PyQT](https://riverbankcomputing.com/software/pyqt/)
+- создавать web-приложения ([Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/));
+- разрабатывать игры ([Pygame](https://www.pygame.org/));
+- разрабатывать мобильные приложения ([Kivy](https://kivy.org/));
+- работать с текстовыми файлами, изображениями, аудио и видео файлами ([PyMedia](http://pymedia.org/));
+- реализовывать графический интерфейс пользователя ([PyQT](https://riverbankcomputing.com/software/pyqt/)
   , [PyGObject](https://pygobject.readthedocs.io/));
-* заниматься научными и математическими вычислениями ([SciPy](https://scipy.org/), [NumPy](https://numpy.org/)
+- заниматься научными и математическими вычислениями ([SciPy](https://scipy.org/), [NumPy](https://numpy.org/)
   , [SymPy](https://www.sympy.org/));
-* заниматься анализом данных ([Pandas](https://pandas.pydata.org/));
-* строить визуализации на основе данных ([Matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/)
+- заниматься анализом данных ([Pandas](https://pandas.pydata.org/));
+- строить визуализации на основе данных ([Matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/)
   , [Plotly](https://plotly.com/python/));
-* проводить статистические исследования ([statsmodels](https://www.statsmodels.org/));
-* заниматься машинным обучением ([scikit-learn](https://scikit-learn.org/));
-* создавать нейронные сети ([PyTorch](https://pytorch.org/), [TensorFlow](https://www.tensorflow.org/));
-* и многое другое.
+- проводить статистические исследования ([statsmodels](https://www.statsmodels.org/));
+- заниматься машинным обучением ([scikit-learn](https://scikit-learn.org/));
+- создавать нейронные сети ([PyTorch](https://pytorch.org/), [TensorFlow](https://www.tensorflow.org/));
+- и многое другое.
 
 ## Опросы Stack Overflow
 
@@ -150,11 +150,11 @@ Python можно классифицировать как универсальн
 задач в операциях, связанных с Data Science, для каждого бизнеса, включая обработку данных, анализ, манипулирование,
 автоматизацию и машинное обучение:
 
-* **NumPy** - используется для числового анализа данных, изображений и текста.
-* **SciPy** - используется для научных вычислений
-* **Pandas** - используется для машинного обучения и расширенной обработки данных.
-* **Scikit-learn** - используется для машинного обучения, визуализации данных, обработки изображений/текстовых данных.
-* **Matplotlib** - используется для визуализации данных
+- **NumPy** - используется для числового анализа данных, изображений и текста.
+- **SciPy** - используется для научных вычислений
+- **Pandas** - используется для машинного обучения и расширенной обработки данных.
+- **Scikit-learn** - используется для машинного обучения, визуализации данных, обработки изображений/текстовых данных.
+- **Matplotlib** - используется для визуализации данных
 
 ### Применение Python в ведущих компаниях, ориентированных на данные, и будущее Python в Data Science
 
