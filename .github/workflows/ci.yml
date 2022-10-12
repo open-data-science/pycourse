@@ -20,7 +20,8 @@ jobs:
       - name: set up py3.8
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: '3.10'
+          cache: 'pip'
 
       - name: run pre-commit action
         uses: pre-commit/action@v3.0.0
