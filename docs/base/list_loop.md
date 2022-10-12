@@ -2,6 +2,7 @@
 
 !!! info "Автор(ы)"
 
+    - [Baushenko Mark](https://github.com/e0xextazy)
     - [Котенков Игорь](https://github.com/stalkermustang)
 
 ## Введение в списки объектов

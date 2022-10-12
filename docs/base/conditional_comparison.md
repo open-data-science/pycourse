@@ -2,7 +2,7 @@
 
 !!! info "Автор(ы)"
 
-    - [Баушенко Марк](https://github.com/e0xextazy)
+    - [Baushenko Mark](https://github.com/e0xextazy)
     - [Котенков Игорь](https://github.com/stalkermustang)
 
 ## Ветвление логики
