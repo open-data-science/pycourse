@@ -10,8 +10,8 @@
 - [Овсянникова Александра](https://github.com/alexmorphine)
 - [Чернов Илья](https://github.com/ch3rn0v/)
 - [Baushenko Mark](https://github.com/e0xextazy)
-- [vvssttkk](https://github.com/vvssttkk)
 - [Kosarevsky Dmitry](https://github.com/dKosarevsky)
+- [vvssttkk](https://github.com/vvssttkk)
 - ..
 
 ## техническая поддержка
