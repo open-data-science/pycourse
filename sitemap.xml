@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://open-data-science.github.io/pycourse/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/authors/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/conditional_comparison/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/dictionary/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/final/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/functions/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/jupyter/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/list_loop/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/object_class_method/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/tools_install/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://open-data-science.github.io/pycourse/base/variable_types_output/</loc>
-         <lastmod>2022-10-12</lastmod>
+         <lastmod>2022-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
