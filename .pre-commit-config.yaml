@@ -1,12 +1,12 @@
 repos:
 
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.8.3
+    rev: v3.9.0
     hooks:
       - id: reorder-python-imports
 
   - repo: https://github.com/psf/black
-    rev: 22.8.0
+    rev: 22.10.0
     hooks:
       - id: black
         args:
@@ -56,7 +56,7 @@ repos:
       - id: mypy
 
   - repo: https://github.com/ComPWA/mirrors-pyright
-    rev: v1.1.274
+    rev: v1.1.278
     hooks:
       - id: pyright
 
