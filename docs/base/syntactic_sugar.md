@@ -588,17 +588,24 @@ print(f"{points} от {total} составляет {points/total:.2%}")
 19 от 22 составляет 86.36%
 ```
 
-#### Работа с датами
+#### Форматирование даты и времени
 
 ```python linenums="1"
 from datetime import datetime
+
 today = datetime.today()
-print(f"{today:%Y-%m-%d}")  # печать даты в заданном формате
-print(f"{today:%Y}")  # вывод года из даты
+now = datetime.utcnow()
+
+print(f"{today:%d.%m.%Y}")  # вывод даты в заданном формате
+print(f"{today:%Y}")        # вывод года из даты
+print(f"{now:%T}")          # вывод времени
+print(f"{now:%x}")          # вывод даты
 ```
 ```bash
-2022-11-04
+04.11.2022
 2022
+13:25:45
+11/04/22
 ```
 
 #### Добавление начальных нулей
