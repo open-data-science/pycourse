@@ -90,6 +90,7 @@ False
 
 ```python linenums="1"
 d = {n: n+2 for n in range(10)}
+
 print(d)
 ```
 ```bash
@@ -123,6 +124,7 @@ x = something if condition else otherthing
 ```python linenums="1"
 number = 1_000_000_000_000
 number2 = 1000000000000
+
 print(number == number2)
 ```
 ```bash
@@ -157,7 +159,6 @@ Ellipsis
 def create_lecture():
     ...
 
-
 class Lecture:
     pass
 ```
@@ -176,6 +177,7 @@ class Lecture:
 import numpy as np
 
 A = np.random.rand(2, 3, 2)
+
 print(A)
 ```
 ```bash
@@ -258,6 +260,7 @@ def partial(func: Callable[..., str], *args) -> Callable[..., str]:
 
 ```python linenums="1"
 walrus = False
+
 print(walrus)
 ```
 ```bash
@@ -267,6 +270,7 @@ False
 В примере выше показан традиционный оператор присваивания, в котором переменной `walrus` присваивается значение `False`.
 
 ```python linenums="1"
+
 print(walrus := True)
 ```
 ```bash
@@ -380,6 +384,7 @@ data_structure = {
     "сумма": sum(numbers),
     "среднее": sum(numbers) / len(numbers),
 }
+
 print(data_structure)
 ```
 ```bash
@@ -399,6 +404,7 @@ data_structure = {
     "сумма": num_sum,
     "среднее": num_sum / num_length,
 }
+
 print(data_structure)
 ```
 ```bash
@@ -415,6 +421,7 @@ data_structure = {
     "сумма": (num_sum := sum(numbers)),
     "среднее": num_sum / num_length,
 }
+
 print(data_structure)
 ```
 ```bash
@@ -441,6 +448,7 @@ print(data_structure)
 
 ```python linenums="1"
 x = 12.3456789
+
 print(f"{x:.3f}")
 ```
 ```bash
@@ -454,6 +462,7 @@ width = 12
 precision = 4
 value = 12.3456789
 res = f"result: {value:{width}.{precision}}"
+
 print(res)
 ```
 ```bash
@@ -471,6 +480,7 @@ result:        12.35
 ```python linenums="1"
 x = 1
 y = 8
+
 print(f"x = {x}, y = {y}")
 ```
 ```bash
@@ -483,6 +493,7 @@ x = 1, y = 8
 x = 1
 y = 8
 z = 12.3456789
+
 print(f"{x = }, {y = }")
 print(f"{z = :.3f}")
 ```
@@ -501,6 +512,7 @@ z = 12.346
 
 ```python linenums="1"
 text = "ODS"
+
 print(f"{text}")
 ```
 ```bash
@@ -515,6 +527,7 @@ ODS
 
 ```python linenums="1"
 text = "ODS"
+
 print(f"{text:-<15}")
 ```
 
@@ -528,6 +541,7 @@ ODS------------
 
 ```python linenums="1"
 text = "ODS"
+
 print(f"{text:->15}")
 ```
 ```bash
@@ -538,6 +552,7 @@ print(f"{text:->15}")
 
     ```python linenums="1"
     text = "ODS"
+
     print(f"{text:-^15}")
     ```
 #### Замена `%x` и `%o` и преобразование значения в разные базы
@@ -564,6 +579,7 @@ int: 42;  hex: 0x2a;  oct: 0o52;  bin: 0b101010
 
 ```python linenums="1"
 n = 1234567890
+
 print(f"{n:,}")
 print(f"{n:_}")
 ```
@@ -577,6 +593,7 @@ print(f"{n:_}")
 ```python linenums="1"
 points = 19
 total = 22
+
 print(f"{points} от {total} составляет {points/total:.2%}")
 ```
 ```bash
@@ -607,6 +624,7 @@ print(f"{now:%x}")          # вывод даты
 
 ```python linenums="1"
 n = 321
+
 print(f"{n:08}")
 ```
 ```bash
