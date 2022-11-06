@@ -39,7 +39,7 @@ jobs:
       - name: deploy mkdocs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GOOGLE_ANALYTICS_KEY: ${{ env.GOOGLE_ANALYTICS_KEY }}
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: mkdocs build -v
 
       - name: update publish dir to build branch
