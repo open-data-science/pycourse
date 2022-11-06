@@ -136,4 +136,5 @@ nav:
     - словари: base/dictionary.md
     - функции: base/functions.md
     - объекты, классы и методы: base/object_class_method.md
+    - синтаксический сахар: base/syntactic_sugar.md
     - финальная лекция: base/final.md
