@@ -37,6 +37,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: deploy mkdocs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: mkdocs build -v
 
       - name: update publish dir to build branch
