@@ -323,6 +323,7 @@ True
 $$
 d = 2r \arcsin ( \sqrt{ hav(\varphi_2 - \varphi_1) + \cos(\varphi_1) \cos(\varphi_2) hav(\lambda_2 - \lambda_1) } )
 $$
+
 $$
 = 2r \arcsin ( \sqrt{ \sin^2(\frac{\varphi_2 - \varphi_1}{2}) + \cos(\varphi_1) \cos(\varphi_2) \sin^2(\frac{\lambda_2 - \lambda_1}{2}) } ) \ ,
 $$
