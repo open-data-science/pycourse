@@ -43,7 +43,7 @@ jobs:
         run: mkdocs build -v
 
       - name: update publish dir to build branch
-        uses: peaceiris/actions-gh-pages@v3.9.1
+        uses: peaceiris/actions-gh-pages@v3.9.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: ${{ env.PUBLISH_BRANCH }}
