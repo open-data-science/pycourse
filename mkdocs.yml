@@ -24,6 +24,7 @@ theme:
     - announce.dismiss
 
     - content.code.annotate
+    - content.code.copy
     - content.tabs.link
 
     # - header.autohide
@@ -113,6 +114,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+      clickable_checkbox: true
   - pymdownx.tilde
 
 extra_javascript:
