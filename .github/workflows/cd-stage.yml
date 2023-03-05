@@ -39,6 +39,7 @@ jobs:
 
       - name: image processing
         run: |
+          sudo pip install pillow cairosvg
           sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
           sudo apt-get install pngquant
 
