@@ -35,8 +35,6 @@
 
 Проект находится в стадии разработки «основы python».
 
-[Посмотреть прогресс курса](https://github.com/orgs/open-data-science/projects/1/views/1)
-
 # Содействие
 
 Будем рады любой помощи в составлении материалов, практики и иного доброго словца – [contributing.md](https://github.com/open-data-science/pycourse/blob/master/contributing.md).
@@ -47,3 +45,5 @@
 
 - [задачах](https://github.com/open-data-science/pycourse/issues)
 - [обсуждениях](https://github.com/open-data-science/pycourse/discussions)
+
+[Дорожная карта](https://github.com/orgs/open-data-science/projects/1/views/1)
