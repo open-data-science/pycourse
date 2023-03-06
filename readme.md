@@ -46,4 +46,4 @@
 - [задачах](https://github.com/open-data-science/pycourse/issues)
 - [обсуждениях](https://github.com/open-data-science/pycourse/discussions)
 
-[Дорожная карта](https://github.com/orgs/open-data-science/projects/1/views/1)
+[Дорожная карта](https://github.com/orgs/open-data-science/projects/1/views/2)
