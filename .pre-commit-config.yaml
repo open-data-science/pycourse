@@ -49,12 +49,12 @@ repos:
           - --markdown-linebreak-ext=md
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.0.1
+    rev: v1.1.1
     hooks:
       - id: mypy
 
   - repo: https://github.com/ComPWA/mirrors-pyright
-    rev: v1.1.296
+    rev: v1.1.298
     hooks:
       - id: pyright
 
