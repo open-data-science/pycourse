@@ -13,7 +13,7 @@ theme:
     - 404.html
 
   font:
-    text: Ubuntu
+    text: Golos Text
     code: JetBrains Mono
 
   favicon: assets/logo.png
