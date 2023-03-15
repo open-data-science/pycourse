@@ -8,6 +8,7 @@ edit_uri: edit/master/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
 
   static_templates:
     - 404.html
@@ -21,10 +22,9 @@ theme:
 
   language: ru
   features:
-    - content.action.edit
-
     - announce.dismiss
 
+    - content.action.edit
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
@@ -47,7 +47,7 @@ theme:
   palette:
     scheme: slate
     primary: black
-    accent: indigo
+    accent: red
 
 plugins:
   - search:
