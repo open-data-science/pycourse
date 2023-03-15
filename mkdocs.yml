@@ -8,6 +8,7 @@ edit_uri: edit/master/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
 
   static_templates:
     - 404.html
