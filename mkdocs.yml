@@ -129,6 +129,7 @@ nav:
   - главная:
     - index.md
     - authors.md
+    - community.md
     - содействие: https://github.com/open-data-science/pycourse/blob/master/contributing.md
     - лицензия: https://github.com/open-data-science/pycourse/blob/master/license
   - основы python:
