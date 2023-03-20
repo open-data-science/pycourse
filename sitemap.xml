@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://open-data-science.github.io/pycourse/community/</loc>
+         <lastmod>2023-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://open-data-science.github.io/pycourse/base/</loc>
          <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
