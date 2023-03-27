@@ -2,9 +2,9 @@ name: cd-stage
 
 on:
   workflow_dispatch:
-    push:
-      branches:
-        - 'dependabot/**'
+  push:
+    branches:
+      - 'dependabot/**'
 
 env:
   PUBLISH_BRANCH: pycourse-page-stage
