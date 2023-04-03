@@ -14,6 +14,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 4
+    permissions:
+      contents: write
     environment:
       name: pycourse-page-stage
       url: https://pycourse-page-stage.netlify.app/
