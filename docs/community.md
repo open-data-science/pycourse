@@ -10,7 +10,7 @@
     * [opendatascience ru](https://t.me/ods_ru)
     * [data fest](https://t.me/datafest)
     * [data science by ods.ai](https://t.me/opendatascience)
-    * [ods Lab](https://t.me/odslab)
+    * [ods lab](https://t.me/odslab)
     * [ods pet projects](https://t.me/ods_pet_projects)
     * [reliable ml](https://t.me/reliable_ml)
     * [mlpps и data engineering](https://t.me/MLopsProduction)
