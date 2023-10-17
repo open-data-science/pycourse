@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - __master__
 
 env:
   PUBLISH_BRANCH: pycourse-page-prod

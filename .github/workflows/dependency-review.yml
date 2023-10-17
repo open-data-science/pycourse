@@ -3,7 +3,7 @@ name: dependency review
 on:
   pull_request:
     branches:
-      - master
+      - __master__
   merge_group:
     types:
       - checks_requested
