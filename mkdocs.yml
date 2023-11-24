@@ -15,7 +15,7 @@ theme:
 
   font:
     text: Golos Text
-    code: JetBrains Mono
+    code: PT Mono
 
   favicon: assets/logo.png
   logo: assets/logo.png
