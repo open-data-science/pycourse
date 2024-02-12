@@ -27,6 +27,6 @@ jobs:
           cache: 'pip'
 
       - name: run pre-commit action
-        uses: pre-commit/action@v3.0.0
+        uses: pre-commit/action@v3.0.1
         with:
           extra_args: --all-files
