@@ -63,4 +63,4 @@ repos:
     hooks:
       - id: yaspeller
       args:
-        -  --lang ru
+        -  --lang=ru
