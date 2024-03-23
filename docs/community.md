@@ -15,4 +15,3 @@
     * [reliable ml](https://t.me/reliable_ml)
     * [mlpps и data engineering](https://t.me/MLopsProduction)
     * [code mining](https://t.me/codemining)
-* [twitter](https://twitter.com/ods_ai)
