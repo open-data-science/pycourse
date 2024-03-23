@@ -4,7 +4,7 @@
 
     сайт со всеми программами, курсами, соревнованиями, конференциями, событиям, хабами, проектами и т.п. + самом сообществе
 
-* присоединиться к площадке общения [ods в [matrix]](https://ods.ai/tracks/odsmatrix101)
+* присоединиться к площадке [ods в mattermost](https://ods.ai/tracks/mattermost)
 * [хабр](https://habr.com/ru/company/ods/blog/)
 * telegram (основные)
     * [opendatascience ru](https://t.me/ods_ru)
