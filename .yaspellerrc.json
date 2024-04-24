@@ -1,14 +1,15 @@
 {
   "lang": "ru",
   "fileExtensions": [
-    ".md",
-    ".svg"
+    ".md"
   ],
   "excludeFiles": [
     ".git",
     "node_modules",
     ".yaspellerrc.json",
-    ".gitignore"
+    ".gitignore",
+    ".yml",
+    ".yaml"
   ],
   "ignoreUppercase": true,
   "ignoreUrls": true,
