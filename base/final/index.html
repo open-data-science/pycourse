@@ -13,7 +13,7 @@
 <span class=normal><a href=#__codelineno-0-4>4</a></span>
 <span class=normal><a href=#__codelineno-0-5>5</a></span>
 <span class=normal><a href=#__codelineno-0-6>6</a></span>
-<span class=normal><a href=#__codelineno-0-7>7</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-0-1 name=__codelineno-0-1></a><span class=kn>import</span> <span class=nn>numpy</span> <span class=k>as</span> <span class=nn>np</span>
+<span class=normal><a href=#__codelineno-0-7>7</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-0-1 name=__codelineno-0-1></a><span class=kn>import</span><span class=w> </span><span class=nn>numpy</span><span class=w> </span><span class=k>as</span><span class=w> </span><span class=nn>np</span>
 <a id=__codelineno-0-2 name=__codelineno-0-2></a>
 <a id=__codelineno-0-3 name=__codelineno-0-3></a><span class=n>np_example_array</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>array</span><span class=p>([</span><span class=mi>1</span><span class=p>,</span> <span class=mi>2</span><span class=p>,</span> <span class=mi>3</span><span class=p>])</span>
 <a id=__codelineno-0-4 name=__codelineno-0-4></a><span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;</span><span class=si>{</span><span class=n>np_example_array</span><span class=o>.</span><span class=n>shape</span><span class=w> </span><span class=si>= }</span><span class=s2>&quot;</span><span class=p>)</span>
@@ -25,7 +25,7 @@
 </code></pre></div></p> <p>По сути обращение схоже с объявлением объекта класса или же каким то методом - ведь можно импортировать не целый пакет, а его часть!</p> <p><div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-2-1>1</a></span>
 <span class=normal><a href=#__codelineno-2-2>2</a></span>
 <span class=normal><a href=#__codelineno-2-3>3</a></span>
-<span class=normal><a href=#__codelineno-2-4>4</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-2-1 name=__codelineno-2-1></a><span class=kn>from</span> <span class=nn>numpy</span> <span class=kn>import</span> <span class=n>zeros</span>
+<span class=normal><a href=#__codelineno-2-4>4</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-2-1 name=__codelineno-2-1></a><span class=kn>from</span><span class=w> </span><span class=nn>numpy</span><span class=w> </span><span class=kn>import</span> <span class=n>zeros</span>
 <a id=__codelineno-2-2 name=__codelineno-2-2></a>
 <a id=__codelineno-2-3 name=__codelineno-2-3></a><span class=n>zeros_matrix</span> <span class=o>=</span> <span class=n>zeros</span><span class=p>(</span><span class=n>shape</span><span class=o>=</span><span class=p>(</span><span class=mi>1</span><span class=p>,</span> <span class=mi>3</span><span class=p>))</span>
 <a id=__codelineno-2-4 name=__codelineno-2-4></a><span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;</span><span class=si>{</span><span class=n>zeros_matrix</span><span class=w> </span><span class=si>= }</span><span class=s2>&quot;</span><span class=p>)</span>
@@ -33,7 +33,7 @@
 </code></pre></div></p> <p>Здесь <code>zeros</code> - <ins>функция</ins>, формирующая матрицу из нулей заданного размера.</p> <p>Или, к примеру, для отрисовки визуализаций часто используют следующую библиотеку (мы уже с ней сталкивались):</p> <p><div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-4-1>1</a></span>
 <span class=normal><a href=#__codelineno-4-2>2</a></span>
 <span class=normal><a href=#__codelineno-4-3>3</a></span>
-<span class=normal><a href=#__codelineno-4-4>4</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-4-1 name=__codelineno-4-1></a><span class=kn>import</span> <span class=nn>matplotlib.pyplot</span> <span class=k>as</span> <span class=nn>plt</span>
+<span class=normal><a href=#__codelineno-4-4>4</a></span></pre></div></td><td class=code><div><pre><span></span><code><a id=__codelineno-4-1 name=__codelineno-4-1></a><span class=kn>import</span><span class=w> </span><span class=nn>matplotlib.pyplot</span><span class=w> </span><span class=k>as</span><span class=w> </span><span class=nn>plt</span>
 <a id=__codelineno-4-2 name=__codelineno-4-2></a>
 <a id=__codelineno-4-3 name=__codelineno-4-3></a><span class=n>plt</span><span class=o>.</span><span class=n>scatter</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>random</span><span class=o>.</span><span class=n>randn</span><span class=p>(</span><span class=mi>10</span><span class=p>),</span> <span class=n>np</span><span class=o>.</span><span class=n>random</span><span class=o>.</span><span class=n>randn</span><span class=p>(</span><span class=mi>10</span><span class=p>));</span>
 <a id=__codelineno-4-4 name=__codelineno-4-4></a><span class=n>plt</span><span class=o>.</span><span class=n>show</span><span class=p>();</span>
