@@ -66,13 +66,6 @@ plugins:
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/open-data-science/pycourse
-    # - icon: fontawesome/brands/matrix
-    #   link: ..
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ods_ai
 
 markdown_extensions:
 
