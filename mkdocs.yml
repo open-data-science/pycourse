@@ -125,7 +125,6 @@ extra_javascript:
 nav:
   - главная:
     - index.md
-    - community.md
     - содействие: https://github.com/open-data-science/pycourse/blob/master/contributing.md
   - основы python:
     - base/index.md
