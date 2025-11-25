@@ -118,7 +118,6 @@ extra_javascript:
 nav:
   - главная:
     - index.md
-  - содействие: https://github.com/open-data-science/pycourse/blob/__master__/contributing.md
   - основы python:
     - base/index.md
     - установка инструментов: base/tools_install.md
