@@ -125,10 +125,8 @@ extra_javascript:
 nav:
   - главная:
     - index.md
-    - authors.md
     - community.md
     - содействие: https://github.com/open-data-science/pycourse/blob/master/contributing.md
-    - лицензия: https://github.com/open-data-science/pycourse/blob/master/license
   - основы python:
     - base/index.md
     - установка инструментов: base/tools_install.md
